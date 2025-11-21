@@ -13,15 +13,10 @@ Perfect for MTK devices that keep connecting/disconnecting as "`MT65xx Preloader
 Run:
 
 ```bash
-mtk-auto-boot FASTBOOT
+python mtk-auto-boot FASTBOOT
 ```
 
-Or any other supported command, for example:
 
-```bash
-mtk-auto-boot METAMETA
-mtk-auto-boot FACTFACT
-```
 
 The tool will:
 
