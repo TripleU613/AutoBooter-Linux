@@ -13,7 +13,7 @@ Perfect for MTK devices that keep connecting/disconnecting as "`MT65xx Preloader
 Run:
 
 ```bash
-python mtk-auto-boot FASTBOOT
+sudo python mtk-auto-boot FASTBOOT
 ```
 
 
@@ -61,6 +61,13 @@ sudo usermod -aG dialout $USER
 ```
 
 Log out & back in.
+
+or 
+
+```bash
+sudo python mtk-auto-boot FASTBOOT
+```
+
 
 ---
 
